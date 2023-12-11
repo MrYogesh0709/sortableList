@@ -43,7 +43,7 @@ export default function App() {
         </Droppable>
       </DragDropContext>
       <a
-        href="https://github.com/MrYogesh0709"
+        href="https://github.com/MrYogesh0709/sortableList"
         target="_blank"
         rel="noreferrer"
       >
