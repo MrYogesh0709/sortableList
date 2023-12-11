@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--text-color);
+  background-color: var(--background-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --text-color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+  --border-input: 5px;
+
+  --font-large: 2.125rem;
+  --font-medium: 1.2rem;
+}
+
+#root {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+h1 {
+  font-size: --font-large;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+}
+
+.app {
+  margin: 0 2rem;
+}
+.d-flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px 15px;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: var(--border-input);
+}
+.line {
+  height: 2px;
+  background-color: wheat;
+  margin: 1rem auto;
+  width: 10%;
+}
+.author {
+  color: lightgreen;
+}
+.github {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.github:hover {
+  scale: 1.1;
+  transition: scale 0.3s ease-in-out;
+}
+
+.draggable-item {
+  user-select: none;
+  padding: 8px;
+  margin: 10px;
+  background-color: lightslategray;
+  border: 1px solid #242424;
+  border-radius: 4px;
+  color: var(--text-color);
+}
